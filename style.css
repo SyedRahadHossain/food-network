@@ -1,3 +1,23 @@
+.icon-bar {
+  width: 90px;
+  background-color: transparent;
+  position: fixed;
+  padding-top: 15%;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #575757;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #dbdbdb;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -37,7 +57,7 @@ p {
 }
 .half-width {
   width: 50%;
-  padding-left: 5%;
+  padding-left: 10%;
   padding-top: 10%;
 }
 .half-width img {
@@ -112,6 +132,7 @@ p {
 }
 .btn-padding {
   padding-top: 60px;
+  padding-bottom: 80px;
 }
 footer {
   background: #0b0d17;

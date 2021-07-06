@@ -23,7 +23,7 @@ p {
   font-size: 25px;
   color: #18191f;
 }
-#top-p {
+#top-para {
   font-size: 25px;
   font-weight: 500;
   color: #828282;
@@ -110,8 +110,8 @@ p {
   font-weight: 500;
   color: #18191f;
 }
-.bottom-margin {
-  margin-bottom: 20px;
+.btn-padding {
+  padding-top: 60px;
 }
 footer {
   background: #0b0d17;

@@ -33,7 +33,7 @@ p {
 }
 .flexible-container {
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 .half-width {
   width: 50%;
@@ -60,7 +60,12 @@ p {
 .about-me {
   background-image: url(images/shapes/Frame\ 57.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+}
+#chef-img{
+  height:fit-content;
+  width: 80%;
+  padding-left: 25%;
 }
 .text-alignment-center {
   text-align: center;
@@ -70,7 +75,7 @@ p {
   width: 30%;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 11%;
   padding: 20px;
   box-shadow: 0px 0px 40px #dbdbdb;
   border-radius: 40px;
@@ -92,21 +97,20 @@ p {
   padding: 20px;
   box-shadow: 0px 0px 40px #dbdbdb;
   border-radius: 30px;
-  display:inline-flex;
+  display: inline-flex;
   width: 93.5%;
 }
 .status h5 {
   font-size: 48px;
   text-align: center;
   margin-left: 10%;
-
 }
 .status-span {
   font-size: 20px;
   font-weight: 500;
   color: #18191f;
 }
-.bottom-margin{
+.bottom-margin {
   margin-bottom: 20px;
 }
 footer {

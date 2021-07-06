@@ -57,7 +57,7 @@ p {
 }
 .half-width {
   width: 50%;
-  padding-left: 10%;
+  padding-left: 6%;
   padding-top: 10%;
 }
 .half-width img {
@@ -78,7 +78,7 @@ p {
   border-radius: 50px;
 }
 .about-me {
-  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   background-size:cover;
 }

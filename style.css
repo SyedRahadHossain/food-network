@@ -150,3 +150,6 @@ footer a {
   padding: 10px;
   font-size: 40px;
 }
+footer a:hover{
+color: #fba24f;
+}

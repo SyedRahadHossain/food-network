@@ -1,10 +1,10 @@
+/*side nav bar start*/
 .icon-bar {
   width: 90px;
   background-color: transparent;
   position: fixed;
   padding-top: 15%;
 }
-
 .icon-bar a {
   display: block;
   text-align: center;
@@ -13,11 +13,12 @@
   color: #575757;
   font-size: 36px;
 }
-
 .icon-bar a:hover {
   background-color: #dbdbdb;
 }
+/*side nav bar end*/
 
+/*customized tag*/
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -43,6 +44,8 @@ p {
   font-size: 25px;
   color: #18191f;
 }
+
+/*some scaling, positioning*/
 #top-para {
   font-size: 25px;
   font-weight: 500;
@@ -68,6 +71,12 @@ p {
   padding-left: 5%;
   padding-top: 10%;
 }
+.text-alignment-center {
+  text-align: center;
+  padding: 40px 300px 40px 300px;
+}
+
+/*button*/
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
@@ -77,6 +86,12 @@ p {
   font-weight: 500;
   border-radius: 50px;
 }
+.btn-padding {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+/*about portion*/
 .about-me {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
@@ -87,10 +102,8 @@ p {
   width: 80%;
   padding-left: 25%;
 }
-.text-alignment-center {
-  text-align: center;
-  padding: 40px 300px 40px 300px;
-}
+
+/*recipe portion*/
 .recipie-title-area {
   width: 30%;
   margin-left: 2%;
@@ -107,6 +120,8 @@ p {
 .recipie-title-area img {
   width: 100%;
 }
+
+/*social status portion*/
 .status {
   column-count: 3;
   column-gap: 150px;
@@ -130,10 +145,8 @@ p {
   font-weight: 500;
   color: #18191f;
 }
-.btn-padding {
-  padding-top: 60px;
-  padding-bottom: 100px;
-}
+
+/*footer portion*/
 footer {
   background: #0b0d17;
   height: 256px;
